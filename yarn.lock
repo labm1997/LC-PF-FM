@@ -1363,7 +1363,7 @@
 
 "@expo/vector-icons@^13.0.0":
   "integrity" "sha1-4pibhelagrziFviM+PtYOrBQ7JU="
-  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@expo/vector-icons/-/vector-icons-13.0.0.tgz"
+  "resolved" "https://atf.intranet.bb.com.br:443/artifactory/api/npm/bb-npm-repo/@expo/vector-icons/-/vector-icons-13.0.0.tgz"
   "version" "13.0.0"
 
 "@expo/xcpretty@^4.2.1":
