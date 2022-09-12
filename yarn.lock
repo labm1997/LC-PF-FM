@@ -1771,6 +1771,13 @@
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@types/scheduler/-/scheduler-0.16.2.tgz"
   "version" "0.16.2"
 
+"@types/typescript@^2.0.0":
+  "integrity" "sha1-xDNTnJi64oaCswfqp6D9IRW4PCg="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@types/typescript/-/typescript-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "typescript" "*"
+
 "@types/yargs-parser@*":
   "integrity" "sha1-DGDlN/p5D1+Ucu0ndsK3HsEXNRs="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@types/yargs-parser/-/yargs-parser-21.0.0.tgz"
@@ -6467,7 +6474,7 @@
     "media-typer" "0.3.0"
     "mime-types" "~2.1.24"
 
-"typescript@^4.8.3":
+"typescript@*", "typescript@^4.8.3":
   "integrity" "sha1-1ZNEUixLxGSmWnMKxpUAf9tm3Yg="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/typescript/-/typescript-4.8.3.tgz"
   "version" "4.8.3"
