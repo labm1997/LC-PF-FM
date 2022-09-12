@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "LCPFFM-expo",
+    "slug": "LCPFFM-expo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
