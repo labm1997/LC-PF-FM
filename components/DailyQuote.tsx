@@ -22,7 +22,7 @@ export default function DailyQuote() {
 
 const style = StyleSheet.create({
   mainText: {
-    fontSize: 18,
+    fontSize: 16,
     margin: 4,
   },
   actionContainer: {

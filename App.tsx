@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
 import DailyQuote from "./components/DailyQuote";
-import { FavoriteQuotes } from "./components/FavoriteQuotes";
+import { FavoriteQuotesGroup } from "./components/FavoriteQuotesGroup";
 import { LogoHeader } from "./components/LogoHeader";
 
 export default function App() {
@@ -10,7 +10,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <LogoHeader />
       <DailyQuote />
-      <FavoriteQuotes />
+      <FavoriteQuotesGroup />
       <StatusBar style="auto" />
     </SafeAreaView>
   );
