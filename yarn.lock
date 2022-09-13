@@ -36,7 +36,7 @@
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@babel/compat-data/-/compat-data-7.19.0.tgz"
   "version" "7.19.0"
 
-"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.12.0", "@babel/core@^7.12.9", "@babel/core@^7.13.0", "@babel/core@^7.13.16", "@babel/core@^7.14.0", "@babel/core@^7.4.0-0":
+"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.12.0", "@babel/core@^7.12.9", "@babel/core@^7.13.0", "@babel/core@^7.13.16", "@babel/core@^7.14.0", "@babel/core@^7.18.5", "@babel/core@^7.4.0-0":
   "integrity" "sha1-0vX08gM8AN6Alr48n0V3JWPhUMM="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@babel/core/-/core-7.19.0.tgz"
   "version" "7.19.0"
@@ -1052,7 +1052,7 @@
     "debug" "^4.1.0"
     "globals" "^11.1.0"
 
-"@babel/types@^7.0.0", "@babel/types@^7.18.10", "@babel/types@^7.18.6", "@babel/types@^7.18.9", "@babel/types@^7.19.0", "@babel/types@^7.4.4":
+"@babel/types@^7.0.0", "@babel/types@^7.18.10", "@babel/types@^7.18.4", "@babel/types@^7.18.6", "@babel/types@^7.18.9", "@babel/types@^7.19.0", "@babel/types@^7.4.4":
   "integrity" "sha1-dfIdc9c9wDUfM2jSjbc0ZfSBRgA="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@babel/types/-/types-7.19.0.tgz"
   "version" "7.19.0"
@@ -1714,6 +1714,101 @@
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@sideway/pinpoint/-/pinpoint-2.0.0.tgz"
   "version" "2.0.0"
 
+"@svgr/babel-plugin-add-jsx-attribute@^6.3.1":
+  "integrity" "sha1-uaXYSQK+daBe3pLnCzONKKtj+nQ="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-6.3.1.tgz"
+  "version" "6.3.1"
+
+"@svgr/babel-plugin-remove-jsx-attribute@^6.3.1":
+  "integrity" "sha1-SHeZVFLvyZezZ3er4f3pcF73jos="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/babel-plugin-remove-jsx-attribute/-/babel-plugin-remove-jsx-attribute-6.3.1.tgz"
+  "version" "6.3.1"
+
+"@svgr/babel-plugin-remove-jsx-empty-expression@^6.3.1":
+  "integrity" "sha1-LWeg6SkEyb4Umlsi06N5fOTXtRQ="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/babel-plugin-remove-jsx-empty-expression/-/babel-plugin-remove-jsx-empty-expression-6.3.1.tgz"
+  "version" "6.3.1"
+
+"@svgr/babel-plugin-replace-jsx-attribute-value@^6.3.1":
+  "integrity" "sha1-MG9SRxOcU69w0XePJxlkfHR5mO4="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/babel-plugin-replace-jsx-attribute-value/-/babel-plugin-replace-jsx-attribute-value-6.3.1.tgz"
+  "version" "6.3.1"
+
+"@svgr/babel-plugin-svg-dynamic-title@^6.3.1":
+  "integrity" "sha1-bOJtNMvJPrgXN+9ShSiQfCkueqI="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/babel-plugin-svg-dynamic-title/-/babel-plugin-svg-dynamic-title-6.3.1.tgz"
+  "version" "6.3.1"
+
+"@svgr/babel-plugin-svg-em-dimensions@^6.3.1":
+  "integrity" "sha1-Wt4qckspCHPDBSnR2M0jUjhWKHo="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/babel-plugin-svg-em-dimensions/-/babel-plugin-svg-em-dimensions-6.3.1.tgz"
+  "version" "6.3.1"
+
+"@svgr/babel-plugin-transform-react-native-svg@^6.3.1":
+  "integrity" "sha1-1lT1CdaSw6Cd+0dXV6RL2fatfd8="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/babel-plugin-transform-react-native-svg/-/babel-plugin-transform-react-native-svg-6.3.1.tgz"
+  "version" "6.3.1"
+
+"@svgr/babel-plugin-transform-svg-component@^6.3.1":
+  "integrity" "sha1-IaKF2//c6VZ8Q36/DQgb+SEIB+Y="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/babel-plugin-transform-svg-component/-/babel-plugin-transform-svg-component-6.3.1.tgz"
+  "version" "6.3.1"
+
+"@svgr/babel-preset@^6.3.1":
+  "integrity" "sha1-i9Hq15Y305XpNisB3TfP1ZcC4VI="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/babel-preset/-/babel-preset-6.3.1.tgz"
+  "version" "6.3.1"
+  dependencies:
+    "@svgr/babel-plugin-add-jsx-attribute" "^6.3.1"
+    "@svgr/babel-plugin-remove-jsx-attribute" "^6.3.1"
+    "@svgr/babel-plugin-remove-jsx-empty-expression" "^6.3.1"
+    "@svgr/babel-plugin-replace-jsx-attribute-value" "^6.3.1"
+    "@svgr/babel-plugin-svg-dynamic-title" "^6.3.1"
+    "@svgr/babel-plugin-svg-em-dimensions" "^6.3.1"
+    "@svgr/babel-plugin-transform-react-native-svg" "^6.3.1"
+    "@svgr/babel-plugin-transform-svg-component" "^6.3.1"
+
+"@svgr/core@^6.0.0", "@svgr/core@^6.1.2":
+  "integrity" "sha1-dSrfSdjVRzsV12ynQZYd4JP3Fb0="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/core/-/core-6.3.1.tgz"
+  "version" "6.3.1"
+  dependencies:
+    "@svgr/plugin-jsx" "^6.3.1"
+    "camelcase" "^6.2.0"
+    "cosmiconfig" "^7.0.1"
+
+"@svgr/hast-util-to-babel-ast@^6.3.1":
+  "integrity" "sha1-WWFOJNKkooAQ4CCJITs0SNkFdp0="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/hast-util-to-babel-ast/-/hast-util-to-babel-ast-6.3.1.tgz"
+  "version" "6.3.1"
+  dependencies:
+    "@babel/types" "^7.18.4"
+    "entities" "^4.3.0"
+
+"@svgr/plugin-jsx@^6.3.1":
+  "integrity" "sha1-3nst6CQpa4Nta4dNSYN3iW42f1A="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/plugin-jsx/-/plugin-jsx-6.3.1.tgz"
+  "version" "6.3.1"
+  dependencies:
+    "@babel/core" "^7.18.5"
+    "@svgr/babel-preset" "^6.3.1"
+    "@svgr/hast-util-to-babel-ast" "^6.3.1"
+    "svg-parser" "^2.0.4"
+
+"@svgr/plugin-svgo@^6.1.2":
+  "integrity" "sha1-PB/y767RDlxdNabK57rK7cGLXUo="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@svgr/plugin-svgo/-/plugin-svgo-6.3.1.tgz"
+  "version" "6.3.1"
+  dependencies:
+    "cosmiconfig" "^7.0.1"
+    "deepmerge" "^4.2.2"
+    "svgo" "^2.8.0"
+
+"@trysound/sax@0.2.0":
+  "integrity" "sha1-zMqrdYr1Z2Hre/N69vA/Mm3XmK0="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@trysound/sax/-/sax-0.2.0.tgz"
+  "version" "0.2.0"
+
 "@types/graceful-fs@^4.1.2":
   "integrity" "sha1-If+6DZjaQ1DbZIkfkqnl2zzbThU="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@types/graceful-fs/-/graceful-fs-4.1.5.tgz"
@@ -1744,6 +1839,11 @@
   "integrity" "sha1-DrPM4eN8eWGZQ9L9kDkZ/DCFBgE="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@types/node/-/node-18.7.16.tgz"
   "version" "18.7.16"
+
+"@types/parse-json@^4.0.0":
+  "integrity" "sha1-L4u0QUNNFjs1+4/9zNcTiSf/uMA="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@types/parse-json/-/parse-json-4.0.0.tgz"
+  "version" "4.0.0"
 
 "@types/prop-types@*":
   "integrity" "sha1-XxnSuFqY6VWANvajysyIGUIPBc8="
@@ -2190,6 +2290,11 @@
     "raw-body" "2.4.0"
     "type-is" "~1.6.17"
 
+"boolbase@^1.0.0":
+  "integrity" "sha1-aN/1++YMUes3cl6p4+0xDcwed24="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/boolbase/-/boolbase-1.0.0.tgz"
+  "version" "1.0.0"
+
 "bplist-creator@0.1.0":
   "integrity" "sha1-AYotG1h/dp43nvVRkQNzD4ljuh4="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/bplist-creator/-/bplist-creator-0.1.0.tgz"
@@ -2371,6 +2476,11 @@
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/callsites/-/callsites-2.0.0.tgz"
   "version" "2.0.0"
 
+"callsites@^3.0.0":
+  "integrity" "sha1-s2MKvYlDQy9Us/BRkjjjPNffL3M="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/callsites/-/callsites-3.1.0.tgz"
+  "version" "3.1.0"
+
 "camelcase@^5.0.0":
   "integrity" "sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/camelcase/-/camelcase-5.3.1.tgz"
@@ -2381,10 +2491,15 @@
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/camelcase/-/camelcase-6.3.0.tgz"
   "version" "6.3.0"
 
+"camelcase@^6.2.0":
+  "integrity" "sha1-VoW5XrIJrJwMF3Rnd4ychN9Yupo="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/camelcase/-/camelcase-6.3.0.tgz"
+  "version" "6.3.0"
+
 "caniuse-lite@^1.0.30001370":
-  "integrity" "sha1-AQ2dVuO4q82N8mHQqUsiQmJxoV8="
-  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/caniuse-lite/-/caniuse-lite-1.0.30001397.tgz"
-  "version" "1.0.30001397"
+  "integrity" "sha1-G/mUyjddfzP40BzgO31ROehYeHM="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/caniuse-lite/-/caniuse-lite-1.0.30001399.tgz"
+  "version" "1.0.30001399"
 
 "chalk@^2.0.0":
   "integrity" "sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ="
@@ -2679,6 +2794,17 @@
     "js-yaml" "^3.13.1"
     "parse-json" "^4.0.0"
 
+"cosmiconfig@^7.0.1":
+  "integrity" "sha1-cU11ZSLKzoZ4Z8y0R0xdAbuuXW0="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/cosmiconfig/-/cosmiconfig-7.0.1.tgz"
+  "version" "7.0.1"
+  dependencies:
+    "@types/parse-json" "^4.0.0"
+    "import-fresh" "^3.2.1"
+    "parse-json" "^5.0.0"
+    "path-type" "^4.0.0"
+    "yaml" "^1.10.0"
+
 "create-react-class@^15.7.0":
   "integrity" "sha1-dJnXyi5pu1HRP69ZvQTwxlodbB4="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/create-react-class/-/create-react-class-15.7.0.tgz"
@@ -2736,6 +2862,37 @@
   dependencies:
     "hyphenate-style-name" "^1.0.2"
     "isobject" "^3.0.1"
+
+"css-select@^4.1.3", "css-select@^4.2.1":
+  "integrity" "sha1-23EpsoRmYv2GKM/ElquytZ5BUps="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/css-select/-/css-select-4.3.0.tgz"
+  "version" "4.3.0"
+  dependencies:
+    "boolbase" "^1.0.0"
+    "css-what" "^6.0.1"
+    "domhandler" "^4.3.1"
+    "domutils" "^2.8.0"
+    "nth-check" "^2.0.1"
+
+"css-tree@^1.0.0-alpha.39", "css-tree@^1.1.2", "css-tree@^1.1.3":
+  "integrity" "sha1-60hw+2/XcHMn7JXC/yqwm16NuR0="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/css-tree/-/css-tree-1.1.3.tgz"
+  "version" "1.1.3"
+  dependencies:
+    "mdn-data" "2.0.14"
+    "source-map" "^0.6.1"
+
+"css-what@^6.0.1":
+  "integrity" "sha1-+17/z3bx3eosgb36pN5E55uscPQ="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/css-what/-/css-what-6.1.0.tgz"
+  "version" "6.1.0"
+
+"csso@^4.2.0":
+  "integrity" "sha1-6jpWE0bo3J9UbW/r7dUBh884lSk="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/csso/-/csso-4.2.0.tgz"
+  "version" "4.2.0"
+  dependencies:
+    "css-tree" "^1.1.2"
 
 "csstype@^3.0.2":
   "integrity" "sha1-TdysNxjXh8+d8NG30VAzklyPKfI="
@@ -2820,6 +2977,11 @@
   "integrity" "sha1-08R/1vOpPVF7FEJrBiihewEl9fc="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/deepmerge/-/deepmerge-3.3.0.tgz"
   "version" "3.3.0"
+
+"deepmerge@^4.2.2":
+  "integrity" "sha1-RNLqNnm49NT/ujPwPYZfwee/SVU="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/deepmerge/-/deepmerge-4.2.2.tgz"
+  "version" "4.2.2"
 
 "default-gateway@^4.2.0":
   "integrity" "sha1-FnEEx1AMIRX23WmwpTa7jtcgVSs="
@@ -2917,6 +3079,36 @@
   dependencies:
     "path-type" "^4.0.0"
 
+"dom-serializer@^1.0.1":
+  "integrity" "sha1-3l1Bsa6ikCFdxFptrorc8dMuLTA="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/dom-serializer/-/dom-serializer-1.4.1.tgz"
+  "version" "1.4.1"
+  dependencies:
+    "domelementtype" "^2.0.1"
+    "domhandler" "^4.2.0"
+    "entities" "^2.0.0"
+
+"domelementtype@^2.0.1", "domelementtype@^2.2.0":
+  "integrity" "sha1-XEXo6GmVJiYzHXqrMm0B2vZdWJ0="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/domelementtype/-/domelementtype-2.3.0.tgz"
+  "version" "2.3.0"
+
+"domhandler@^4.2.0", "domhandler@^4.3.1":
+  "integrity" "sha1-jXkgM0FvWdaLwDpap7AYwcqJJ5w="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/domhandler/-/domhandler-4.3.1.tgz"
+  "version" "4.3.1"
+  dependencies:
+    "domelementtype" "^2.2.0"
+
+"domutils@^2.8.0":
+  "integrity" "sha1-RDfe9dtuLR9dbuhZvZXKfQIEgTU="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/domutils/-/domutils-2.8.0.tgz"
+  "version" "2.8.0"
+  dependencies:
+    "dom-serializer" "^1.0.1"
+    "domelementtype" "^2.2.0"
+    "domhandler" "^4.2.0"
+
 "ee-first@1.1.1":
   "integrity" "sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/ee-first/-/ee-first-1.1.1.tgz"
@@ -2943,6 +3135,16 @@
   "version" "1.4.4"
   dependencies:
     "once" "^1.4.0"
+
+"entities@^2.0.0":
+  "integrity" "sha1-CY3JDruD2N/6CJ1VJWs1HTTE2lU="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/entities/-/entities-2.2.0.tgz"
+  "version" "2.2.0"
+
+"entities@^4.3.0":
+  "integrity" "sha1-l72roXAzlEZJXmU8/S23iWKQAXQ="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/entities/-/entities-4.4.0.tgz"
+  "version" "4.4.0"
 
 "env-editor@^0.4.1":
   "integrity" "sha1-TnZWjQvY9cK20xSpQSyP6ao66GE="
@@ -3703,6 +3905,14 @@
     "caller-path" "^2.0.0"
     "resolve-from" "^3.0.0"
 
+"import-fresh@^3.2.1":
+  "integrity" "sha1-NxYsJfy566oublPVtNiM4X2eDCs="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/import-fresh/-/import-fresh-3.3.0.tgz"
+  "version" "3.3.0"
+  dependencies:
+    "parent-module" "^1.0.0"
+    "resolve-from" "^4.0.0"
+
 "imurmurhash@^0.1.4":
   "integrity" "sha1-khi5srkoojixPcT7a21XbyMUU+o="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/imurmurhash/-/imurmurhash-0.1.4.tgz"
@@ -4171,6 +4381,11 @@
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz"
   "version" "1.0.2"
 
+"json-parse-even-better-errors@^2.3.0":
+  "integrity" "sha1-fEeAWpQxmSjgV3dAXcEuH3pO4C0="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz"
+  "version" "2.3.1"
+
 "json-schema-deref-sync@^0.13.0":
   "integrity" "sha1-ywi0/0NaSLWhSWUtd1D90HEAmCM="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/json-schema-deref-sync/-/json-schema-deref-sync-0.13.0.tgz"
@@ -4416,6 +4631,11 @@
   "integrity" "sha1-7XS0d6Luk2n3Xv7i8I1ZFeUqQug="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/md5hex/-/md5hex-1.0.0.tgz"
   "version" "1.0.0"
+
+"mdn-data@2.0.14":
+  "integrity" "sha1-cRP8QoGRfWPOKbQ0RvcB5owlulA="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/mdn-data/-/mdn-data-2.0.14.tgz"
+  "version" "2.0.14"
 
 "media-typer@0.3.0":
   "integrity" "sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g="
@@ -4972,6 +5192,13 @@
   dependencies:
     "path-key" "^2.0.0"
 
+"nth-check@^2.0.1":
+  "integrity" "sha1-yeq0KO/842zWuSySS9sADvHx7R0="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/nth-check/-/nth-check-2.1.1.tgz"
+  "version" "2.1.1"
+  dependencies:
+    "boolbase" "^1.0.0"
+
 "nullthrows@^1.1.1":
   "integrity" "sha1-eBgliEOFaulx6uQgitfX6xmkMbE="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/nullthrows/-/nullthrows-1.1.1.tgz"
@@ -5178,6 +5405,13 @@
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/p-try/-/p-try-2.2.0.tgz"
   "version" "2.2.0"
 
+"parent-module@^1.0.0":
+  "integrity" "sha1-aR0nCeeMefrjoVZiJFLQB2LKqqI="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/parent-module/-/parent-module-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "callsites" "^3.0.0"
+
 "parse-json@^4.0.0":
   "integrity" "sha1-vjX1Qlvh9/bHRxhPmKeIy5lHfuA="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/parse-json/-/parse-json-4.0.0.tgz"
@@ -5185,6 +5419,16 @@
   dependencies:
     "error-ex" "^1.3.1"
     "json-parse-better-errors" "^1.0.1"
+
+"parse-json@^5.0.0":
+  "integrity" "sha1-x2/Gbe5UIxyWKyK8yKcs8vmXU80="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/parse-json/-/parse-json-5.2.0.tgz"
+  "version" "5.2.0"
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    "error-ex" "^1.3.1"
+    "json-parse-even-better-errors" "^2.3.0"
+    "lines-and-columns" "^1.1.6"
 
 "parse-png@^2.1.0":
   "integrity" "sha1-KkKtcZ/t+Q+BxZ6+565ZsoDWszg="
@@ -5215,6 +5459,11 @@
   "integrity" "sha1-2YRUqcN1PVeQhg8W9ohnueRr4f0="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/path-browserify/-/path-browserify-1.0.1.tgz"
   "version" "1.0.1"
+
+"path-dirname@^1.0.2":
+  "integrity" "sha1-zDPSTVJeCZpTiMAzbG4yuRYGCeA="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/path-dirname/-/path-dirname-1.0.2.tgz"
+  "version" "1.0.2"
 
 "path-exists@^3.0.0":
   "integrity" "sha1-zg6+ql94yxiSXqfYENe1mwEP1RU="
@@ -5459,6 +5708,23 @@
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.7.tgz"
   "version" "0.0.7"
 
+"react-native-svg-transformer@^1.0.0":
+  "integrity" "sha1-enB+XpXSAyG189z9DDyHYuvQIhs="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/react-native-svg-transformer/-/react-native-svg-transformer-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "@svgr/core" "^6.1.2"
+    "@svgr/plugin-svgo" "^6.1.2"
+    "path-dirname" "^1.0.2"
+
+"react-native-svg@^12.3.0", "react-native-svg@>=12.0.0":
+  "integrity" "sha1-QPZXxdHuNm3yPz7I2udv0na4Ykg="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/react-native-svg/-/react-native-svg-12.3.0.tgz"
+  "version" "12.3.0"
+  dependencies:
+    "css-select" "^4.2.1"
+    "css-tree" "^1.0.0-alpha.39"
+
 "react-native-web@~0.18.7":
   "integrity" "sha1-9QMuCzLr6ZwKsi0T29jKKUSwjxI="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/react-native-web/-/react-native-web-0.18.9.tgz"
@@ -5472,7 +5738,7 @@
     "postcss-value-parser" "^4.2.0"
     "styleq" "^0.1.2"
 
-"react-native@*", "react-native@0.69.5":
+"react-native@*", "react-native@>=0.50.0", "react-native@>=0.59.0", "react-native@0.69.5":
   "integrity" "sha1-lZFCv+8hvu2DcWC1SqFzE/XhiY8="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/react-native/-/react-native-0.69.5.tgz"
   "version" "0.69.5"
@@ -5524,7 +5790,7 @@
     "object-assign" "^4.1.1"
     "react-is" "^16.12.0 || ^17.0.0 || ^18.0.0"
 
-"react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0", "react@^18.0.0", "react@18.0.0":
+"react@*", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0", "react@^18.0.0", "react@18.0.0":
   "integrity" "sha1-tGhzbR9KWJHzhYW6jo+yn5HDy5Y="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/react/-/react-18.0.0.tgz"
   "version" "18.0.0"
@@ -5677,6 +5943,11 @@
   "integrity" "sha1-six699nWiBvItuZTM17rywoYh0g="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/resolve-from/-/resolve-from-3.0.0.tgz"
   "version" "3.0.0"
+
+"resolve-from@^4.0.0":
+  "integrity" "sha1-SrzYUq0y3Xuqv+m0DgCjbbXzkuY="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/resolve-from/-/resolve-from-4.0.0.tgz"
+  "version" "4.0.0"
 
 "resolve-from@^5.0.0":
   "integrity" "sha1-w1IlhD3493bfIcV1V7wIfp39/Gk="
@@ -6059,6 +6330,11 @@
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/source-map/-/source-map-0.6.1.tgz"
   "version" "0.6.1"
 
+"source-map@^0.6.1":
+  "integrity" "sha1-dHIq8y6WFOnCh6jQu95IteLxomM="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/source-map/-/source-map-0.6.1.tgz"
+  "version" "0.6.1"
+
 "source-map@^0.7.3":
   "integrity" "sha1-qbvnBcnYhG9OCP9nZazw8bCJhlY="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/source-map/-/source-map-0.7.4.tgz"
@@ -6094,6 +6370,11 @@
   "version" "8.0.1"
   dependencies:
     "minipass" "^3.1.1"
+
+"stable@^0.1.8":
+  "integrity" "sha1-g26zyDgv4pNv6vVEYxAXzn1Ho88="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/stable/-/stable-0.1.8.tgz"
+  "version" "0.1.8"
 
 "stackframe@^1.3.4":
   "integrity" "sha1-uIGgBMjBSaXo7+831RsW5BKUMxA="
@@ -6254,6 +6535,24 @@
   "integrity" "sha1-btpL00SjyUrqN21MwxvHcxEDngk="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   "version" "1.0.0"
+
+"svg-parser@^2.0.4":
+  "integrity" "sha1-/cLinhOVFzYUC3bLEiyO5mMOtrU="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/svg-parser/-/svg-parser-2.0.4.tgz"
+  "version" "2.0.4"
+
+"svgo@^2.8.0":
+  "integrity" "sha1-T/gMzmcQ3CeV8MfHQQHmdkz8zSQ="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/svgo/-/svgo-2.8.0.tgz"
+  "version" "2.8.0"
+  dependencies:
+    "@trysound/sax" "0.2.0"
+    "commander" "^7.2.0"
+    "css-select" "^4.1.3"
+    "css-tree" "^1.1.3"
+    "csso" "^4.2.0"
+    "picocolors" "^1.0.0"
+    "stable" "^0.1.8"
 
 "tar@^6.0.2", "tar@^6.0.5":
   "integrity" "sha1-Z2CjjwA6+hsv/Q/+npq70Oqz1iE="
@@ -6826,6 +7125,11 @@
   "integrity" "sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/yallist/-/yallist-4.0.0.tgz"
   "version" "4.0.0"
+
+"yaml@^1.10.0":
+  "integrity" "sha1-IwHF/78StGfejaIzOkWeKeeSDks="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/yaml/-/yaml-1.10.2.tgz"
+  "version" "1.10.2"
 
 "yargs-parser@^18.1.2":
   "integrity" "sha1-vmjEl1xrKr9GkjawyHA2L6sJp7A="
