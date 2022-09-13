@@ -1504,6 +1504,13 @@
     "mkdirp" "^1.0.4"
     "rimraf" "^3.0.2"
 
+"@react-native-async-storage/async-storage@^1.17.10":
+  "integrity" "sha1-jWpHcZEr6EVKniFe69Rpsbji5jg="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@react-native-async-storage/async-storage/-/async-storage-1.17.10.tgz"
+  "version" "1.17.10"
+  dependencies:
+    "merge-options" "^3.0.4"
+
 "@react-native-community/cli-clean@^8.0.4":
   "integrity" "sha1-l+FqIOIHuV3hLimwOBbo8rLIDMc="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@react-native-community/cli-clean/-/cli-clean-8.0.4.tgz"
@@ -1834,6 +1841,11 @@
   "version" "3.0.1"
   dependencies:
     "@types/istanbul-lib-report" "*"
+
+"@types/lodash@^4.14.185":
+  "integrity" "sha1-yYQ/WkBwOo9e39UzWKWK5ymBaQg="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@types/lodash/-/lodash-4.14.185.tgz"
+  "version" "4.14.185"
 
 "@types/node@*":
   "integrity" "sha1-DrPM4eN8eWGZQ9L9kDkZ/DCFBgE="
@@ -4146,6 +4158,11 @@
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/is-path-inside/-/is-path-inside-3.0.3.tgz"
   "version" "3.0.3"
 
+"is-plain-obj@^2.1.0":
+  "integrity" "sha1-ReQuN/zPH0Dajl927iFRWEDAkoc="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/is-plain-obj/-/is-plain-obj-2.1.0.tgz"
+  "version" "2.1.0"
+
 "is-plain-object@^2.0.3", "is-plain-object@^2.0.4":
   "integrity" "sha1-LBY7P6+xtgbZ0Xko8FwqHDjgdnc="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/is-plain-object/-/is-plain-object-2.0.4.tgz"
@@ -4532,7 +4549,7 @@
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/lodash.throttle/-/lodash.throttle-4.1.1.tgz"
   "version" "4.1.1"
 
-"lodash@^4.17.13", "lodash@^4.17.15", "lodash@^4.17.4":
+"lodash@^4.17.13", "lodash@^4.17.15", "lodash@^4.17.21", "lodash@^4.17.4":
   "integrity" "sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
@@ -4651,6 +4668,13 @@
   "integrity" "sha1-eJCwHVLADI68nVM+H46xfjA0hxo="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/memory-cache/-/memory-cache-0.2.0.tgz"
   "version" "0.2.0"
+
+"merge-options@^3.0.4":
+  "integrity" "sha1-hHCcKqKkskwZgfZsF5/lVlzG27c="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/merge-options/-/merge-options-3.0.4.tgz"
+  "version" "3.0.4"
+  dependencies:
+    "is-plain-obj" "^2.1.0"
 
 "merge-stream@^2.0.0":
   "integrity" "sha1-UoI2KaFN0AyXcPtq1H3GMQ8sH2A="
@@ -5738,7 +5762,7 @@
     "postcss-value-parser" "^4.2.0"
     "styleq" "^0.1.2"
 
-"react-native@*", "react-native@>=0.50.0", "react-native@>=0.59.0", "react-native@0.69.5":
+"react-native@*", "react-native@^0.0.0-0 || 0.60 - 0.70 || 1000.0.0", "react-native@>=0.50.0", "react-native@>=0.59.0", "react-native@0.69.5":
   "integrity" "sha1-lZFCv+8hvu2DcWC1SqFzE/XhiY8="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/react-native/-/react-native-0.69.5.tgz"
   "version" "0.69.5"

@@ -1,7 +1,4 @@
-export interface Quote {
-    text: string;
-    author: string;
-}
+import { Quote } from "../interfaces";
 
 function extractArray(obj: Array<any>): Array<Quote> {
     return obj.map((value): Quote => {

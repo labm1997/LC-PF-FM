@@ -7,10 +7,13 @@ import {
     TouchableOpacity,
     View,
 } from "react-native";
-import { Quote, randomZQ } from "../services/zenquote-api.service";
+import { useFavorites } from "../hooks/useFavorites";
+import { Quote } from "../interfaces";
+import { randomZQ } from "../services/zenquote-api.service";
 
 export default function DailyQuote() {
     const [quote, setQuote] = useState<Quote>();
+    const { toggleFavorite, isFavorite } = useFavorites();
 
     useEffect(() => {
         randomZQ()
@@ -34,8 +37,15 @@ export default function DailyQuote() {
                         <Text style={style.authorText}>— {quote.author}</Text>
                     </View>
                     <View style={style.actionContainer}>
-                        <TouchableOpacity>
-                            <Ionicons size={20} name="heart-outline" />
+                        <TouchableOpacity onPress={() => toggleFavorite(quote)}>
+                            <Ionicons
+                                size={20}
+                                name={
+                                    isFavorite(quote)
+                                        ? "heart-outline"
+                                        : "heart"
+                                }
+                            />
                         </TouchableOpacity>
                         <TouchableOpacity>
                             <Ionicons size={20} name="reload" />

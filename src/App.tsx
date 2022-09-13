@@ -4,15 +4,18 @@ import { SafeAreaView, StyleSheet } from "react-native";
 import { FavoriteQuotesGroup } from "./components/FavoriteQuotesGroup";
 import { FortuneCookie } from "./components/FortuneCookie";
 import { LogoHeader } from "./components/LogoHeader";
+import { FavoritesProvider } from "./hooks/useFavorites";
 
 export default function App() {
     return (
-        <SafeAreaView style={styles.container}>
-            <LogoHeader />
-            <FortuneCookie />
-            <FavoriteQuotesGroup />
-            <StatusBar style="auto" />
-        </SafeAreaView>
+        <FavoritesProvider>
+            <SafeAreaView style={styles.container}>
+                <LogoHeader />
+                <FortuneCookie />
+                <FavoriteQuotesGroup />
+                <StatusBar style="auto" />
+            </SafeAreaView>
+        </FavoritesProvider>
     );
 }
 
