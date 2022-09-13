@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import {
     Animated,
+    Dimensions,
     StyleSheet,
-    Text,
     TouchableOpacity,
     View,
 } from "react-native";
@@ -81,6 +81,7 @@ export function FortuneCookie() {
                         style={{
                             position: "absolute",
                             transform: [{ scale: textGrowAnim }],
+                            maxWidth: Dimensions.get("screen").width,
                         }}
                     >
                         <DailyQuote></DailyQuote>
