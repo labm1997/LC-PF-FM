@@ -9,10 +9,10 @@ export function FavoriteQuotesGroup() {
     return (
         <View style={style.sectionContainer}>
             <Text style={style.sectionTitle}>Your favorite quotes</Text>
-            <Text>You don't have any quotes yet.</Text>
-            {/* incluir flatlist */}
+            {quotes.length == 0 && <Text>You don't have any quotes yet.</Text>}
             <FlatList
                 data={quotes}
+                scrollEnabled
                 renderItem={({ item }) => <FavoriteQuote quote={item} />}
             />
         </View>
@@ -20,7 +20,7 @@ export function FavoriteQuotesGroup() {
 }
 
 const style = StyleSheet.create({
-    sectionContainer: { margin: 10 },
+    sectionContainer: { margin: 10, alignSelf: "stretch", flex: 1 },
 
     sectionTitle: {
         fontWeight: "bold",

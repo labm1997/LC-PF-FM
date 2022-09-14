@@ -84,7 +84,7 @@ export function FortuneCookie() {
                             maxWidth: Dimensions.get("screen").width,
                         }}
                     >
-                        <DailyQuote></DailyQuote>
+                        <DailyQuote onReload={() => uncrack()}></DailyQuote>
                     </Animated.View>
                 </View>
             )}

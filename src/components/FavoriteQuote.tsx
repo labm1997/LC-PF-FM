@@ -16,6 +16,7 @@ export function FavoriteQuote({ quote }: { quote: Quote }) {
         <View style={style.quoteMainContainer}>
             <View style={style.quoteContainer}>
                 <Text style={style.quoteText}>{quote.text}</Text>
+                <Text style={style.authorText}>— {quote.author}</Text>
             </View>
             <TouchableOpacity onPress={() => unfavorite(quote)}>
                 <Ionicons
@@ -35,11 +36,16 @@ const style = StyleSheet.create({
         margin: 2,
     },
     quoteContainer: {
-        padding: 5,
+        padding: 10,
         flex: 1,
-        alignItems: "center",
+        // alignItems: "center",
     },
     quoteText: {
         fontSize: 12,
+    },
+    authorText: {
+        fontSize: 12,
+        fontWeight: "bold",
+        alignSelf: "flex-end",
     },
 });

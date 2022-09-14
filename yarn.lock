@@ -1137,7 +1137,7 @@
     "uuid" "^3.4.0"
     "wrap-ansi" "^7.0.0"
 
-"@expo/code-signing-certificates@^0.0.2":
+"@expo/code-signing-certificates@^0.0.2", "@expo/code-signing-certificates@0.0.2":
   "integrity" "sha1-Zc1hWADmcktUgxyWbdGpAUUBckY="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@expo/code-signing-certificates/-/code-signing-certificates-0.0.2.tgz"
   "version" "0.0.2"
@@ -1266,7 +1266,7 @@
     "json5" "^1.0.1"
     "write-file-atomic" "^2.3.0"
 
-"@expo/metro-config@~0.3.18":
+"@expo/metro-config@~0.3.18", "@expo/metro-config@~0.3.19":
   "integrity" "sha1-+koHKeyOy8nJ+3nGPsxmoplQXII="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/@expo/metro-config/-/metro-config-0.3.22.tgz"
   "version" "0.3.22"
@@ -3287,6 +3287,11 @@
     "@expo/config" "~7.0.0"
     "uuid" "^3.3.2"
 
+"expo-eas-client@~0.3.0":
+  "integrity" "sha1-ITg/yVpS5x4TxydkVtsgOI/vz5U="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/expo-eas-client/-/expo-eas-client-0.3.0.tgz"
+  "version" "0.3.0"
+
 "expo-error-recovery@~3.2.0":
   "integrity" "sha1-OkVDOCkEpecIKctB1/wPAiwr724="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/expo-error-recovery/-/expo-error-recovery-3.2.0.tgz"
@@ -3307,10 +3312,22 @@
   dependencies:
     "fontfaceobserver" "^2.1.0"
 
+"expo-json-utils@~0.3.0":
+  "integrity" "sha1-DEoBle4rveAsu19NOE0ctjvqdJM="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/expo-json-utils/-/expo-json-utils-0.3.0.tgz"
+  "version" "0.3.0"
+
 "expo-keep-awake@~10.2.0":
   "integrity" "sha1-RvBHQLzNMhcyu77ZNJHiB21du9c="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/expo-keep-awake/-/expo-keep-awake-10.2.0.tgz"
   "version" "10.2.0"
+
+"expo-manifests@~0.3.0":
+  "integrity" "sha1-UsPvQdOxlYA5vgQ0Nj5kmcdzqvY="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/expo-manifests/-/expo-manifests-0.3.1.tgz"
+  "version" "0.3.1"
+  dependencies:
+    "expo-json-utils" "~0.3.0"
 
 "expo-modules-autolinking@>=0.8.1", "expo-modules-autolinking@0.10.3":
   "integrity" "sha1-Mb/PPkthOnw5SfsfHpwj7qTBTK8="
@@ -3343,6 +3360,34 @@
   "integrity" "sha1-wDF94sU4eDQPS08A/35LoUOZp/s="
   "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/expo-status-bar/-/expo-status-bar-1.4.0.tgz"
   "version" "1.4.0"
+
+"expo-structured-headers@~2.2.0":
+  "integrity" "sha1-c5+WkQHea+rZIe7lnliZOZrWdxU="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/expo-structured-headers/-/expo-structured-headers-2.2.1.tgz"
+  "version" "2.2.1"
+
+"expo-updates-interface@~0.7.0":
+  "integrity" "sha1-9PA7YdvdlJysn7ROJQ4RYroXdlA="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/expo-updates-interface/-/expo-updates-interface-0.7.0.tgz"
+  "version" "0.7.0"
+
+"expo-updates@^0.14.5":
+  "integrity" "sha1-PeJ2SxQ8k+7mNsq1OMCBp4Z6oIY="
+  "resolved" "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/expo-updates/-/expo-updates-0.14.5.tgz"
+  "version" "0.14.5"
+  dependencies:
+    "@expo/code-signing-certificates" "0.0.2"
+    "@expo/config" "~7.0.1"
+    "@expo/config-plugins" "~5.0.1"
+    "@expo/metro-config" "~0.3.19"
+    "arg" "4.1.0"
+    "expo-eas-client" "~0.3.0"
+    "expo-manifests" "~0.3.0"
+    "expo-structured-headers" "~2.2.0"
+    "expo-updates-interface" "~0.7.0"
+    "fbemitter" "^3.0.0"
+    "resolve-from" "^5.0.0"
+    "uuid" "^3.4.0"
 
 "expo@*", "expo@~46.0.9":
   "integrity" "sha1-o1IFdIlHQnmwIHzGsBVA7cBOGAY="

@@ -49,7 +49,9 @@ export const useFavorites = () => {
     };
 
     const favorite = async (quote: Quote) => {
-        await update(_.uniq([...quotes, quote]));
+        await update(
+            _.uniqBy([...quotes, quote], (quote) => quote.author + quote.text)
+        );
     };
 
     const toggleFavorite = async (quote: Quote) => {
@@ -64,7 +66,9 @@ export const useFavorites = () => {
     };
 
     const isFavorite = (quote: Quote): boolean => {
-        return _.includes(quotes, quote);
+        return !!quotes.find(
+            (q) => q.author === quote.author && q.text === quote.text
+        );
     };
 
     return { quotes: quotes, favorite, toggleFavorite, unfavorite, isFavorite };
